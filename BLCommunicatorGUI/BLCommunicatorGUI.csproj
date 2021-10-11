@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net5.0-windows</TargetFramework>
+        <UseWPF>true</UseWPF>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="System.IO.Ports" Version="5.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Graphics\directions.png" />
+      <Resource Include="Graphics\directions.png" />
+    </ItemGroup>
+
+</Project>
